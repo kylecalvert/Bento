@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 :root {
     /* Fonts  */
-    --fsg: 150px;
+    --fsg: 85px;
     --fsm: 85px;
     --fss: 30px;
     --fses: 18px;
@@ -178,6 +178,7 @@ body {
 #greetings {
     font-size: var(--fss);
     color: var(--fg);
+    margin-top: 12px;
 }
 @media only screen and (max-width: 68.75em) {
     #greetings {
